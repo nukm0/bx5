@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
-import TelegramProvider from "./telegram-provider";
+import TelegramProvider from "./components/telegram-provider.tsx";
 import "./globals.css";
 
 export const metadata: Metadata = {
